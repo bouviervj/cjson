@@ -1,0 +1,19 @@
+Entry point table:
+com02::U => 0x****************
+com02::V => 0x****************
+VTable Layout:
+[0x****************] vtable for com02::V 0x******** :             com02::V                  vtable offset expected [0x8]
+[0x****************] vtable for com02::V 0x******** :             com02::V                  vtable offset expected [0x8]
+[0x****************] vtable for com02::V 0x******** :             com02::V                  vtable offset expected [(nil)]
+[0x****************] vtable for com02::V 0x******** :             com02::S                    offset to f expected [(nil)]
+[0x****************] vtable for com02::V 0x******** :             com02::S                  offset to top expected [(nil)]
+[0x****************] vtable for com02::V 0x******** :             com02::V                           rtti expected typeinfo for com02::V
+[0x****************] vtable for com02::V 0x******** :             com02::S                  com02::S::f() expected com02::S::f()
+[0x****************] vtable for com02::V 0x******** :             com02::U                  vtable offset expected [(nil)]
+[0x****************] vtable for com02::V 0x******** :             com02::U                  vtable offset expected [0xfffffffffffffff8]
+[0x****************] vtable for com02::V 0x******** :             com02::S                    offset to f expected [0xfffffffffffffff8]
+[0x****************] vtable for com02::V 0x******** :             com02::S                  offset to top expected [0xfffffffffffffff8]
+[0x****************] vtable for com02::V 0x******** :             com02::U                           rtti expected typeinfo for com02::V
+[0x****************] vtable for com02::V 0x******** :             com02::S                  com02::S::f() expected [(nil)]
+Wrong Table !!! to debug
+

@@ -1,0 +1,31 @@
+Entry point table:
+com02::A => 0x****************
+com02::C => 0x****************
+com02::D => 0x****************
+com02::E => 0x****************
+VTable Layout:
+[0x****************] vtable for com02::E 0x******** :             com02::E                  vtable offset expected [0x38]
+[0x****************] vtable for com02::E 0x******** :             com02::X                  offset to top expected [(nil)]
+[0x****************] vtable for com02::E 0x******** :             com02::E                           rtti expected typeinfo for com02::E
+[0x****************] vtable for com02::E 0x******** :             com02::X                  com02::X::x() expected com02::X::x()
+[0x****************] vtable for com02::E 0x******** :             com02::E                  com02::E::f() expected com02::E::f()
+[0x****************] vtable for com02::E 0x******** :             com02::E                  com02::E::h() expected com02::E::h()
+[0x****************] vtable for com02::E 0x******** :             com02::D                  vtable offset expected [0x28]
+[0x****************] vtable for com02::E 0x******** :             com02::A                  offset to top expected [0xfffffffffffffff0]
+[0x****************] vtable for com02::E 0x******** :             com02::D                           rtti expected typeinfo for com02::E
+[0x****************] vtable for com02::E 0x******** :             com02::B                  com02::B::f() expected non-virtual thunk to com02::E::f()
+[0x****************] vtable for com02::E 0x******** :             com02::D                  com02::D::h() expected non-virtual thunk to com02::E::h()
+[0x****************] vtable for com02::E 0x******** :             com02::C                  vtable offset expected [0x18]
+[0x****************] vtable for com02::E 0x******** :             com02::A                  offset to top expected [0xffffffffffffffe0]
+[0x****************] vtable for com02::E 0x******** :             com02::C                           rtti expected typeinfo for com02::E
+[0x****************] vtable for com02::E 0x******** :             com02::C                  com02::C::g() expected com02::C::g()
+[0x****************] vtable for com02::E 0x******** :             com02::C                  com02::C::h() expected non-virtual thunk to com02::E::h()
+[0x****************] vtable for com02::E 0x******** :             com02::A                    offset to f expected [0xffffffffffffffc8]
+[0x****************] vtable for com02::E 0x******** :             com02::A                    offset to g expected [0xffffffffffffffe8]
+[0x****************] vtable for com02::E 0x******** :             com02::A                    offset to h expected [0xffffffffffffffc8]
+[0x****************] vtable for com02::E 0x******** :             com02::A                  offset to top expected [0xffffffffffffffc8]
+[0x****************] vtable for com02::E 0x******** :             com02::A                           rtti expected typeinfo for com02::E
+[0x****************] vtable for com02::E 0x******** :             com02::A                  com02::A::f() expected virtual thunk to com02::E::f()
+[0x****************] vtable for com02::E 0x******** :             com02::A                  com02::A::g() expected virtual thunk to com02::C::g()
+[0x****************] vtable for com02::E 0x******** :             com02::A                  com02::A::h() expected virtual thunk to com02::E::h()
+

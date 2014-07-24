@@ -1,0 +1,36 @@
+Entry point table:
+com::A => 0x****************
+com::C => 0x****************
+com::E => 0x****************
+com::F => 0x****************
+com::class0 => 0x****************
+com::class1 => 0x****************
+VTable Layout:
+[0x****************] vtable for com::class1 0x******** :          com::class1                  vtable offset expected [0x90]
+[0x****************] vtable for com::class1 0x******** :          com::class1                  vtable offset expected [0x88]
+[0x****************] vtable for com::class1 0x******** :          com::classb                  offset to top expected [(nil)]
+[0x****************] vtable for com::class1 0x******** :          com::class1                           rtti expected typeinfo for com::class1
+[0x****************] vtable for com::class1 0x******** :          com::classb        com::classb::ident_bb() expected com::classb::ident_bb()
+[0x****************] vtable for com::class1 0x******** :          com::class1           com::class1::print() expected com::class1::print()
+[0x****************] vtable for com::class1 0x******** :         com::classm1 com::classm1::print2(std::string&) expected com::classm1::print2(std::string&)
+[0x****************] vtable for com::class1 0x******** :         com::classm1       com::classm1::ident_m1() expected com::classm1::ident_m1()
+[0x****************] vtable for com::class1 0x******** :               com::B                  offset to top expected [0xfffffffffffffff0]
+[0x****************] vtable for com::class1 0x******** :               com::A                           rtti expected typeinfo for com::class1
+[0x****************] vtable for com::class1 0x******** :               com::B               com::B::printB() expected com::B::printB()
+[0x****************] vtable for com::class1 0x******** :               com::A               com::A::printA() expected com::A::printA()
+[0x****************] vtable for com::class1 0x******** :               com::D                  offset to top expected [0xffffffffffffffe8]
+[0x****************] vtable for com::class1 0x******** :               com::C                           rtti expected typeinfo for com::class1
+[0x****************] vtable for com::class1 0x******** :               com::D               com::D::printD() expected com::D::printD()
+[0x****************] vtable for com::class1 0x******** :               com::C               com::C::printC() expected com::C::printC()
+[0x****************] vtable for com::class1 0x******** :          com::class0                  offset to top expected [0xffffffffffffffd0]
+[0x****************] vtable for com::class1 0x******** :          com::class0                           rtti expected typeinfo for com::class1
+[0x****************] vtable for com::class1 0x******** :          com::class0           com::class0::ident() expected com::class0::ident()
+[0x****************] vtable for com::class1 0x******** :               com::E               offset to printE expected [(nil)]
+[0x****************] vtable for com::class1 0x******** :               com::E                  offset to top expected [0xffffffffffffff78]
+[0x****************] vtable for com::class1 0x******** :               com::E                           rtti expected typeinfo for com::class1
+[0x****************] vtable for com::class1 0x******** :               com::E               com::E::printE() expected com::E::printE()
+[0x****************] vtable for com::class1 0x******** :               com::F               offset to printF expected [(nil)]
+[0x****************] vtable for com::class1 0x******** :               com::F                  offset to top expected [0xffffffffffffff70]
+[0x****************] vtable for com::class1 0x******** :               com::F                           rtti expected typeinfo for com::class1
+[0x****************] vtable for com::class1 0x******** :               com::F               com::F::printF() expected com::F::printF()
+

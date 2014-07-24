@@ -1,0 +1,6 @@
+
+Packages to install:
+
+Xerces
+sudo apt-get install libxerces-c-dev
+

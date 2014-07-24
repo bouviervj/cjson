@@ -1,0 +1,18 @@
+Entry point table:
+com02::A => 0x****************
+com02::C => 0x****************
+VTable Layout:
+[0x****************] vtable for com02::C 0x******** :             com02::C                  vtable offset expected [0x10]
+[0x****************] vtable for com02::C 0x******** :             com02::A                  offset to top expected [(nil)]
+[0x****************] vtable for com02::C 0x******** :             com02::C                           rtti expected typeinfo for com02::C
+[0x****************] vtable for com02::C 0x******** :             com02::C                  com02::C::g() expected com02::C::g()
+[0x****************] vtable for com02::C 0x******** :             com02::C                  com02::C::h() expected com02::C::h()
+[0x****************] vtable for com02::C 0x******** :             com02::A                    offset to f expected [0xfffffffffffffff0]
+[0x****************] vtable for com02::C 0x******** :             com02::A                    offset to g expected [0xfffffffffffffff0]
+[0x****************] vtable for com02::C 0x******** :             com02::A                    offset to h expected [(nil)]
+[0x****************] vtable for com02::C 0x******** :             com02::A                  offset to top expected [0xfffffffffffffff0]
+[0x****************] vtable for com02::C 0x******** :             com02::A                           rtti expected typeinfo for com02::C
+[0x****************] vtable for com02::C 0x******** :             com02::A                  com02::A::f() expected com02::A::f()
+[0x****************] vtable for com02::C 0x******** :             com02::A                  com02::A::g() expected virtual thunk to com02::C::g()
+[0x****************] vtable for com02::C 0x******** :             com02::A                  com02::A::h() expected virtual thunk to com02::C::h()
+

@@ -1,0 +1,10 @@
+Entry point table:
+com01::class6 => 0x****************
+VTable Layout:
+[0x****************] vtable for com01::class6 0x******** :        com01::class6                  vtable offset expected [0x8]
+[0x****************] vtable for com01::class6 0x******** :        com01::class6                  vtable offset expected [(nil)]
+[0x****************] vtable for com01::class6 0x******** :        com01::class2                offset to print expected [(nil)]
+[0x****************] vtable for com01::class6 0x******** :        com01::class2                  offset to top expected [(nil)]
+[0x****************] vtable for com01::class6 0x******** :        com01::class6                           rtti expected typeinfo for com01::class6
+[0x****************] vtable for com01::class6 0x******** :        com01::class2         com01::class2::print() expected com01::class2::print()
+
